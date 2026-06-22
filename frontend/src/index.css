@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer base {
+  body {
+    @apply antialiased text-notion-text bg-notion-bg;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}

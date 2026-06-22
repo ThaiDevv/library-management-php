@@ -1,0 +1,31 @@
+{
+  "name": "library-management",
+  "version": "1.0.0",
+  "description": "Hệ thống quản lý thư viện - Monorepo Backend và Frontend",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "cd backend && npm run start:dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThaiDevv/FullStack-Project-library-management.git"
+  },
+  "keywords": [
+    "library",
+    "management",
+    "nestjs",
+    "react",
+    "monorepo"
+  ],
+  "author": "ThaiDevv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThaiDevv/FullStack-Project-library-management/issues"
+  },
+  "homepage": "https://github.com/ThaiDevv/FullStack-Project-library-management#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
